@@ -47,6 +47,7 @@ private slots://声明槽函数
     // 声明界面的左侧选择哪个控件的函数。
     //void on_SelectedNodeChanged(mitk::DataNode::Pointer dNode, int dataType);
 
+
 };
 
 #endif // HDIFF_MAINWINDOW_H
