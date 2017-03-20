@@ -1,0 +1,770 @@
+﻿生成启动时间为 2017/3/19 21:45:33。
+     1>项目“D:\resources\6_Qt\projects\HSIMRI\HSIMRI.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing hdiff_mainwindow.h...
+         Moc'ing process_property_form.h...
+         Uic'ing hdiff_mainwindow.ui...
+         Uic'ing process_property_form.ui...
+         Rcc'ing imgrc.qrc...
+       ClCompile:
+         E:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /I"E:\MITK-2016.03.0-src\Modules\CppMicroServices\core\src\service" /I"E:\MITK-2016.03.0-src\Modules\CppMicroServices\core\src\module" /I"E:\MITK-2016.03.0-releasebin64\MITK-build\include" /I"E:\MITK-2016.03.0-releasebin64\ep\src\CTK" /I"E:\MITK-2016.03.0-releasebin64\ep\src\CTK\Libs\PluginFramework" /I"E:\MITK-2016.03.0-releasebin64\ep\include\\" /I"E:\MITK-2016.03.0-releasebin64\ep\include\ANN" /I"E:\MITK-2016.03.0-releasebin64\ep\include\boost-1_59" /I"E:\MITK-2016.03.0-releasebin64\ep\include\cppunit" /I"E:\MITK-2016.03.0-releasebin64\ep\include\ctk-0.1" /I"E:\MITK-2016.03.0-releasebin64\ep\include\dcmtk" /I"E:\MITK-2016.03.0-releasebin64\ep\include\eigen3" /I"E:\MITK-2016.03.0-releasebin64\ep\include\gdcm-2.4" /I"E:\MITK-2016.03.0-releasebin64\ep\include\ITK-4.7" /I"E:\MITK-2016.03.0-releasebin64\ep\include\Poco" /I"E:\MITK-2016.03.0-releasebin64\ep\include\Qwt" /I"E:\MITK-2016.03.0-releasebin64\ep\include\tinyxml" /I"E:\MITK-2016.03.0-releasebin64\ep\include\vigra" /I"E:\MITK-2016.03.0-releasebin64\ep\include\vtk-6.2" /I"E:\MITK-2016.03.0-src\include" /I"E:\MITK-2016.03.0-src\Plugins\org.blueberry.ui.qt\src" /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtANGLE /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /Irelease /I"E:\Qt\Qt5.5.1\5.5\msvc2013_64\mkspecs\win32-msvc2013" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 GeneratedFiles\qrc_imgrc.cpp
+         qrc_imgrc.cpp
+         E:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /I"E:\MITK-2016.03.0-src\Modules\CppMicroServices\core\src\service" /I"E:\MITK-2016.03.0-src\Modules\CppMicroServices\core\src\module" /I"E:\MITK-2016.03.0-releasebin64\MITK-build\include" /I"E:\MITK-2016.03.0-releasebin64\ep\src\CTK" /I"E:\MITK-2016.03.0-releasebin64\ep\src\CTK\Libs\PluginFramework" /I"E:\MITK-2016.03.0-releasebin64\ep\include\\" /I"E:\MITK-2016.03.0-releasebin64\ep\include\ANN" /I"E:\MITK-2016.03.0-releasebin64\ep\include\boost-1_59" /I"E:\MITK-2016.03.0-releasebin64\ep\include\cppunit" /I"E:\MITK-2016.03.0-releasebin64\ep\include\ctk-0.1" /I"E:\MITK-2016.03.0-releasebin64\ep\include\dcmtk" /I"E:\MITK-2016.03.0-releasebin64\ep\include\eigen3" /I"E:\MITK-2016.03.0-releasebin64\ep\include\gdcm-2.4" /I"E:\MITK-2016.03.0-releasebin64\ep\include\ITK-4.7" /I"E:\MITK-2016.03.0-releasebin64\ep\include\Poco" /I"E:\MITK-2016.03.0-releasebin64\ep\include\Qwt" /I"E:\MITK-2016.03.0-releasebin64\ep\include\tinyxml" /I"E:\MITK-2016.03.0-releasebin64\ep\include\vigra" /I"E:\MITK-2016.03.0-releasebin64\ep\include\vtk-6.2" /I"E:\MITK-2016.03.0-src\include" /I"E:\MITK-2016.03.0-src\Plugins\org.blueberry.ui.qt\src" /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtANGLE /IE:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /Irelease /I"E:\Qt\Qt5.5.1\5.5\msvc2013_64\mkspecs\win32-msvc2013" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 hdiff_mainwindow.cpp main.cpp process_property_form.cpp Release\moc_hdiff_mainwindow.cpp Release\moc_process_property_form.cpp
+         hdiff_mainwindow.cpp
+     1>hdiff_mainwindow.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\resources\6_qt\projects\hsimri\hdiff_mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2062: 意外的类型“char”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2275: “_Elem”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2062: 意外的类型“wchar_t”
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2275: “char16_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(605) : 参见“char16_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2275: “char32_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(606) : 参见“char32_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(61): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(89): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(117): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(145): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(201): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(229): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(257): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C2039: “strlen”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C3861: “strlen”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(456): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(458): warning C4183: “name”:  缺少返回类型；假定为返回“int”的成员函数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(359): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(385): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(408): error C2664: “void std::locale::_Construct(const std::locale &,const int)”: 无法将参数 1 从“const char *”转换为“const std::locale &”
+                 原因如下:  无法从“const char *”转换为“const std::locale”
+                 class“std::locale”的构造函数声明为“explicit”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(419): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(457): error C3861: “string”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(483): error C2228: “.compare”的左边必须有类/结构/联合
+                 类型是“int”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): error C2228: “.compare”的左边必须有类/结构/联合
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): fatal error C1003: 错误计数超过 100；正在停止编译
+         main.cpp
+     1>d:\resources\6_qt\projects\hsimri\hdiff_mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2062: 意外的类型“char”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2275: “_Elem”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2062: 意外的类型“wchar_t”
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2275: “char16_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(605) : 参见“char16_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2275: “char32_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(606) : 参见“char32_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(61): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(89): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(117): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(145): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(201): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(229): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(257): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C2039: “strlen”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C3861: “strlen”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(456): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(458): warning C4183: “name”:  缺少返回类型；假定为返回“int”的成员函数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(359): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(385): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(408): error C2664: “void std::locale::_Construct(const std::locale &,const int)”: 无法将参数 1 从“const char *”转换为“const std::locale &”
+                 原因如下:  无法从“const char *”转换为“const std::locale”
+                 class“std::locale”的构造函数声明为“explicit”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(419): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(457): error C3861: “string”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(483): error C2228: “.compare”的左边必须有类/结构/联合
+                 类型是“int”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): error C2228: “.compare”的左边必须有类/结构/联合
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): fatal error C1003: 错误计数超过 100；正在停止编译
+         process_property_form.cpp
+     1>process_property_form.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\resources\6_qt\projects\hsimri\process_property_form.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2062: 意外的类型“char”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2275: “_Elem”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2062: 意外的类型“wchar_t”
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2275: “char16_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(605) : 参见“char16_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2275: “char32_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(606) : 参见“char32_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(61): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(89): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(117): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(145): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(201): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(229): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(257): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C2039: “strlen”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C3861: “strlen”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(456): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(458): warning C4183: “name”:  缺少返回类型；假定为返回“int”的成员函数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(359): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(385): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(408): error C2664: “void std::locale::_Construct(const std::locale &,const int)”: 无法将参数 1 从“const char *”转换为“const std::locale &”
+                 原因如下:  无法从“const char *”转换为“const std::locale”
+                 class“std::locale”的构造函数声明为“explicit”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(419): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(457): error C3861: “string”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(483): error C2228: “.compare”的左边必须有类/结构/联合
+                 类型是“int”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): error C2228: “.compare”的左边必须有类/结构/联合
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): fatal error C1003: 错误计数超过 100；正在停止编译
+         moc_hdiff_mainwindow.cpp
+     1>d:\resources\6_qt\projects\hsimri\release\../hdiff_mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2062: 意外的类型“char”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2275: “_Elem”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2062: 意外的类型“wchar_t”
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2275: “char16_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(605) : 参见“char16_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2275: “char32_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(606) : 参见“char32_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(61): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(89): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(117): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(145): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(201): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(229): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(257): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C2039: “strlen”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C3861: “strlen”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(456): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(458): warning C4183: “name”:  缺少返回类型；假定为返回“int”的成员函数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(359): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(385): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(408): error C2664: “void std::locale::_Construct(const std::locale &,const int)”: 无法将参数 1 从“const char *”转换为“const std::locale &”
+                 原因如下:  无法从“const char *”转换为“const std::locale”
+                 class“std::locale”的构造函数声明为“explicit”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(419): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(457): error C3861: “string”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(483): error C2228: “.compare”的左边必须有类/结构/联合
+                 类型是“int”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): error C2228: “.compare”的左边必须有类/结构/联合
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): fatal error C1003: 错误计数超过 100；正在停止编译
+         moc_process_property_form.cpp
+     1>d:\resources\6_qt\projects\hsimri\release\../process_property_form.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2605): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2610): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2615): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2639): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2646): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C2039: “memset”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2653): error C3861: “memset”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2745): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2751): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2757): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C2039: “memcmp”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xutility(2906): error C3861: “memcmp”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2062: 意外的类型“char”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(19): error C2275: “_Elem”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2642): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2062: 意外的类型“wchar_t”
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644) : 参见“_Elem”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2644): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2275: “char16_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(605) : 参见“char16_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2663): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2065: “char_traits”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2275: “char32_t”: 将此类型用作表达式非法
+                 E:\Microsoft Visual Studio 12.0\VC\include\yvals.h(606) : 参见“char32_t”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2974: 'std::basic_string' : 模板 对于 '_Traits'是无效参数，应为类型
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+                 E:\Microsoft Visual Studio 12.0\VC\include\xstring(693) : 参见“std::basic_string”的声明
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): warning C4091: “typedef ”: 没有声明变量时忽略“std::basic_string”的左侧
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2143: 语法错误 : 缺少“;”(在“,”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xstring(2665): error C2059: 语法错误:“,”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(31): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(59): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(61): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(87): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(89): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(115): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(117): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(143): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(145): error C2512: “std::logic_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(171): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(199): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(201): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(227): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(229): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2065: “_Message”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(255): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\stdexcept(257): error C2512: “std::runtime_error”: 没有合适的默认构造函数可用
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C2039: “strlen”: 不是“`global namespace'”的成员
+     1>E:\Microsoft Visual Studio 12.0\VC\include\typeinfo(49): error C3861: “strlen”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(349): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(373): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(422): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(429): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(455): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(456): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(458): warning C4183: “name”:  缺少返回类型；假定为返回“int”的成员函数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(355): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(359): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(380): error C2228: “.c_str”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(385): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(408): error C2664: “void std::locale::_Construct(const std::locale &,const int)”: 无法将参数 1 从“const char *”转换为“const std::locale &”
+                 原因如下:  无法从“const char *”转换为“const std::locale”
+                 class“std::locale”的构造函数声明为“explicit”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(419): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(426): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Str”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2065: “_Cat”: 未声明的标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(433): error C2661: “std::locale::_Construct”: 没有重载函数接受 3 个参数
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(457): error C3861: “string”:  找不到标识符
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(483): error C2228: “.compare”的左边必须有类/结构/联合
+                 类型是“int”
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): error C2228: “.compare”的左边必须有类/结构/联合
+     1>E:\Microsoft Visual Studio 12.0\VC\include\xlocale(484): fatal error C1003: 错误计数超过 100；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“D:\resources\6_Qt\projects\HSIMRI\HSIMRI.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.54
